@@ -1,0 +1,10 @@
+#Nav{   
+    @include flex;
+    @include main-padding (10px);
+    .navbar-brand{
+        sup{
+            top: -1.9em;
+            font-size: 35%;
+        }
+    }
+}

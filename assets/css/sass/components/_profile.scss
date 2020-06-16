@@ -1,0 +1,29 @@
+.banner__info {
+    background-color: white;
+    @include flex;
+    @include main-padding(10px);
+  &__profile {
+    height: 100px;
+    width: 100%;
+    @include flex (row,flex-start,center);
+    
+
+    &__image {
+      background-image: url(../images/profile-image.png);
+      background-size: cover;
+      background-position: center;
+      @include size (80px, 80px);
+      border-radius: 50%;
+    }
+    &__info {
+      display: block;
+      padding-left: 25px;
+      p{
+        margin: 0;
+      }
+    }
+  }
+  &__buttons{
+    display: flex;
+  }
+}
