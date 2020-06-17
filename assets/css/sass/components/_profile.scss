@@ -1,7 +1,6 @@
 .banner__info {
-    background-color: white;
-    @include flex;
-    @include main-padding(10px);
+        @include flex;
+    // @include main-padding(10px);
   &__profile {
     height: 100px;
     width: 100%;
@@ -12,7 +11,7 @@
       background-image: url(../images/profile-image.png);
       background-size: cover;
       background-position: center;
-      @include size (80px, 80px);
+      @include size-w-h (80px, 80px);
       border-radius: 50%;
     }
     &__info {

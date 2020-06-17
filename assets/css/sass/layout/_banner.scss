@@ -1,9 +1,12 @@
-#Banner{
-    height: 370px;
+.banner{
     background-image: url(../images/image-banner.png);
     background-size: cover;
+    background-position-x: 50%;
     background-position-y: 59%;
+    @include size-w-h (100%, 370px);
     @include flex (column, flex-end, stretch);
     border-bottom: 1px solid gray;
-
+    &__container{
+        background-color: white;
+    }
 }
