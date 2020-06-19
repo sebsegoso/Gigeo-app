@@ -2,9 +2,18 @@
     @include flex;
     padding: 15px 0;
     .navbar-brand{
+        font-family: $poppins;
         sup{
+        font-family: $poppins;
+
             top: -1.9em;
             font-size: 35%;
+        }
+    }
+    .nav-link{
+        &__title{
+            font-family: $open-sans;
+            font-weight: $bold-700;
         }
     }
 }

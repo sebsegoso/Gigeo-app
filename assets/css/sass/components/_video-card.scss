@@ -1,3 +1,67 @@
-.videos__card{
-    
+.videos__card {
+  @include flex(column, flex-start, flex-start);
+  & > div {
+    @include size-w-h(100%, 175px);
+  }
+  &__image {
+    &-1 {
+      @include card-image(url(../images/image-1.png));
+    }
+    &-2 {
+      @include card-image(url(../images/image-2.png));
+    }
+    &-3 {
+      @include card-image(url(../images/image-3.png));
+    }
+    &-4 {
+      @include card-image(url(../images/image-4.png));
+    }
+    &-5 {
+      @include card-image(url(../images/image-5.png));
+    }
+    &-6 {
+      @include card-image(url(../images/image-6.png));
+    }
+    &-7 {
+      @include card-image(url(../images/image-7.png));
+    }
+    &-8 {
+      @include card-image(url(../images/image-8.png));
+    }
+  }
+  &__views {
+    justify-self: flex-end;
+  }
 }
+
+@media  (min-width: 576px) {
+    .videos__card {
+      & > div {
+        @include size-w-h(100%, 17.4375rem);
+      }
+    }
+  }
+
+@media  (min-width: 768px) {
+  .videos__card {
+    & > div {
+      @include size-w-h(100%, 200px);
+    }
+  }
+}
+
+@media  (min-width: 992px) {
+    .videos__card {
+      & > div {
+        @include size-w-h(100%, 115px);
+      }
+    }
+  }
+
+@media  (min-width: 1200px) {
+    .videos__card {
+      & > div {
+        @include size-w-h(100%, 180px);
+      }
+    }
+  }

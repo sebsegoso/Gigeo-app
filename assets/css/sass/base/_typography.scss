@@ -4,4 +4,15 @@ h1,h2{
 
 h1{
     font-size: 24px;
+    font-weight: $bold-700;
+}
+
+h4{
+    font-weight: $bold-700;
+    font-size: 1.25em;
+}
+
+h5{
+    font-weight: $light-300;
+    font-size: 1em;
 }

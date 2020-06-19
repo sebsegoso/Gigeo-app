@@ -17,3 +17,12 @@
   width: $width;
   height: $height;
 }
+
+@mixin card-image($file-url, $bg-position:center, $bg-size: cover){
+  background-image: $file-url;
+  background-position: $bg-position;
+  background-size: $bg-size;
+  background-repeat: no-repeat;
+  
+  
+}

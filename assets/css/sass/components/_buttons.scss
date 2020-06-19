@@ -1,11 +1,28 @@
+
+
 .banner__info__buttons{
-    color: white;
+    // color: $white;
     &-mensaje{
-        background-color: cadetblue;
+        background-color: $green;
+        &:hover{
+            background-color: $greenhover;
+        }
+        &:active{
+            background-color: $green;
+        }
     }
     &-seguir{
+        // color: $white;
         margin-left: 15px;
-        background-color: crimson;
+        background-color: $crimson;
+        &:hover{
+            background-color: $crimsonhover;
+        }
     }
 
+}
+//Button transition
+.banner__info__buttons *{
+    color: $white;
+    transition: background-color .7s, color .5s;
 }
