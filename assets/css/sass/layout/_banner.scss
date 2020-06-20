@@ -3,7 +3,7 @@
     background-size: cover;
     background-position-x: 80%;
     background-position-y: 59%;
-    @include size-w-h (100%, 270px);
+    @include size-w-h (100%, 16.875rem);
     @include flex (column, flex-end, stretch);
     &__container{
         background-color: white;
@@ -12,14 +12,14 @@
 
 @media (min-width:768px){
     .banner{
-        height: 310px;
+        height: 19.375rem;
         border-bottom: 1px solid gray;
     }
 }
 
 @media (min-width: 992px){
     .banner{
-        height: 400px;
+        height: 25rem;
         background-position-x: 50%;
     }
 }

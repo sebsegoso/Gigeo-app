@@ -1,16 +1,14 @@
 .banner__info {
   @include flex;
   &__profile {
-    height: 100px;
+    height: 6.25rem;
     width: 100%;
     @include flex(row, center, center);
-    position: sticky;
-
     &__image {
       background-image: url(../images/profile-image.png);
       background-size: cover;
       background-position: center;
-      @include size-w-h(70px, 70px);
+      @include size-w-h(4.375rem, 4.375rem);
       border-radius: 50%;
     }
     &__info {

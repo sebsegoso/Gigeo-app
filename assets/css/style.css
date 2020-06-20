@@ -10018,7 +10018,7 @@ h5 {
   background-position-x: 80%;
   background-position-y: 59%;
   width: 100%;
-  height: 270px;
+  height: 16.875rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -10030,21 +10030,21 @@ h5 {
 
 @media (min-width: 768px) {
   .banner {
-    height: 310px;
+    height: 19.375rem;
     border-bottom: 1px solid gray;
   }
 }
 @media (min-width: 992px) {
   .banner {
-    height: 400px;
+    height: 25rem;
     background-position-x: 50%;
   }
 }
 .videos {
-  padding: 28px 0;
+  padding: 1.75rem 0;
 }
 .videos__cards-container {
-  padding: 28px 0;
+  padding: 1.75rem 0;
 }
 
 #Nav {
@@ -10103,20 +10103,19 @@ h5 {
   align-items: center;
 }
 .banner__info__profile {
-  height: 100px;
+  height: 6.25rem;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  position: sticky;
 }
 .banner__info__profile__image {
   background-image: url(../images/profile-image.png);
   background-size: cover;
   background-position: center;
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
   border-radius: 50%;
 }
 .banner__info__profile__info {
@@ -10163,7 +10162,7 @@ h5 {
   background-color: #34eb9e;
 }
 .banner__info__buttons-seguir {
-  margin-left: 15px;
+  margin-left: 0.9375rem;
   background-color: crimson;
 }
 .banner__info__buttons-seguir:hover {
