@@ -1,19 +1,52 @@
-#Nav{   
-    @include flex;
-    padding: 15px 0;
-    .navbar-brand{
-        font-family: $poppins;
-        sup{
-        font-family: $poppins;
+#Nav {
+  animation-name: nav_height;
+  animation-duration: 0.5s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-out;
+  @include flex;
+  padding: 15px 0;
+  box-shadow: 0 9px 13px $sombra-negra;
+  .navbar-brand {
+    font-family: $poppins;
+    animation-name: opacity0to1;
+    animation-duration: 2s;
+    sup {
+      font-family: $poppins;
+      top: -1.9em;
+      font-size: 35%;
+      animation-name: sup_logo;
+      animation-delay: 1s;
+      animation-duration: 1.5s;
+      animation-fill-mode: backwards;
+    }
+  }
+  .nav-item {
+    animation-name: opacity0to1;
+    animation-duration: 1s;
+    &:hover {
+    }
+    .nav-link {
+      &:hover {
+        box-shadow: 0 9px 13px $sombra-negra;
+      }
+      &__title {
+        font-family: $montserrat;
+        font-weight: $bold-700;
+      }
+    }
+  }
+}
 
-            top: -1.9em;
-            font-size: 35%;
-        }
+@media (min-width: 992px) {
+  #Nav {
+    .navbar-collapse {
+      flex-grow: 0;
     }
-    .nav-link{
-        &__title{
-            font-family: $open-sans;
-            font-weight: $bold-700;
-        }
+    .nav-item {
+      animation-name: opacity0to1;
+      animation-duration: 2s;
+      animation-delay: 1.5s;
+      animation-fill-mode: backwards;
     }
+  }
 }

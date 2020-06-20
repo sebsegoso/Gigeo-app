@@ -1,0 +1,19 @@
+@keyframes opacity0to1{
+    0% { opacity: 0; color: $white;}
+    100% { opacity: 1; color: $negro;}  
+}
+
+@keyframes nav_height{
+    0% {  padding: 0; opacity: .8}
+    100%{  padding: 15px 0; opacity: 1}
+}
+@keyframes sup_logo {
+    0% {top: -1em; opacity: 0; color:$white;}
+    100% {top: -1.9em; opacity: 1; color:$negro;}  
+}
+
+@keyframes blur{
+    0% {filter: blur(1rem);}
+    100% {filter: blur(0);}
+
+}

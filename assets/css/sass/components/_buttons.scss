@@ -1,7 +1,18 @@
+.banner__info__buttons *{
+    color: $white;
+    transition: background-color .7s, color .5s;
+    box-shadow: 0 9px 13px $sombra-negra;
+    &:active{
+        box-shadow: 0 2px 8px $sombra-negra; 
+        width: 90%;
+    }
+    
 
+}
 
 .banner__info__buttons{
     // color: $white;
+    
     &-mensaje{
         background-color: $green;
         &:hover{
@@ -17,12 +28,6 @@
         background-color: $crimson;
         &:hover{
             background-color: $crimsonhover;
-        }
+        }        
     }
-
-}
-//Button transition
-.banner__info__buttons *{
-    color: $white;
-    transition: background-color .7s, color .5s;
 }

@@ -1,18 +1,27 @@
 h1,h2{
     margin: 0;
 }
-
-h1{
-    font-size: 24px;
+h1,h4{
     font-weight: $bold-700;
 }
 
+h1{
+    font-size: 1.35em;    
+}
+
+h3{
+    font-size: 1.45em;    
+}
+
 h4{
-    font-weight: $bold-700;
-    font-size: 1.25em;
+    font-size: 1.1em;
 }
 
 h5{
     font-weight: $light-300;
     font-size: 1em;
+}
+
+#Banner p{
+    font-size: .75em;
 }

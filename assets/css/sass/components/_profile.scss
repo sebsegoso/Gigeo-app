@@ -4,19 +4,23 @@
     height: 100px;
     width: 100%;
     @include flex(row, center, center);
+    position: sticky;
 
     &__image {
       background-image: url(../images/profile-image.png);
       background-size: cover;
       background-position: center;
-      @include size-w-h(60px, 60px);
+      @include size-w-h(70px, 70px);
       border-radius: 50%;
     }
     &__info {
-      display: block;
-      padding-left: 25px;
+      @include flex(column,flex-start, baseline);
+      flex-wrap: nowrap;
+      padding-left: 0.9375rem;
       p {
         margin: 0;
+        color: $gray;
+
       }
     }
   }
